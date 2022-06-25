@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 17px;
+}
+li{
+    padding: 0;
+}
+
+/*encabezado principal*/
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255)
+}
+.nav-superior{
+    max-width: 1550px;
+    margin: 0 auto;
+}
+.superior{
+
+    display: flex;
+    justify-content: space-between;
+}
+.btn-pide-aqui{
+    margin-right: 40px;
+    font-family: Rubik Moonrocks,sans-serif;
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    border-radius: 3px;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+.logo-navbar-inicial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px   40px  10px; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar-incial{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+}
+.item-navbar-incial{
+    list-style: none;
+}
+.link-navbar-incial{
+    text-decoration: none;
+    margin:0 15px;
+    font-family: Rubik Moonrocks,sans-serif;
+}
+
+
+/*navbar de productos*/
+.nav-inferior{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 5%) inset;
+}
+.navbar-productos{
+    max-width: 1550px;
+    margin: 0 auto;
+    
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin :  0px 40px 0px ;
+}
+.item-productos{
+    list-style: none;
+    margin-top: 10px;
+}
+.link-item-prouctos{
+
+    text-decoration: none;
+    font-family: Rubik Moonrocks,sans-serif;
+
+}
+
+/*Seccion promociones*/
+
+.section-principal{
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%) inset;
+    background-image: url('/img/patronfondo.png'); 
+    
+}
+
+
+.pomociones-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    max-width: 1550px;
+    margin: 10px auto;
+}
+.img-promociones{   
+    margin : 20px 20px;
+}
+.texto-principal-promocion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 25%) ;
+}
+
+/* tarjetas de productos */
+
+.tarjetas-general{
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%) inset;
+    align-items: center;
+
+}
+.tarjetas-general-productos{
+    max-width: 1450px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: Repeat(auto-fit,minmax(300px,1fr));
+    place-items: center;
+    gap: 15px;
+}
+.tarjeta-producto{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 10%) ;
+
+
+}
+.img-torta{
+    margin-top: 25px;
+    width: 240px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.btn-compra{
+    font-family: Rubik Moonrocks,sans-serif;
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    border-radius: 3px;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
